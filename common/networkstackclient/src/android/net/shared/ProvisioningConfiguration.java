@@ -437,7 +437,7 @@ public class ProvisioningConfiguration {
     public boolean mEnableIPv6 = true;
     public boolean mEnablePreconnection = false;
     public boolean mUsingMultinetworkPolicyTracker = true;
-    public boolean mUsingIpReachabilityMonitor = true;
+    public boolean mUsingIpReachabilityMonitor = false;
     public int mRequestedPreDhcpActionMs;
     public InitialConfiguration mInitialConfig;
     public StaticIpConfiguration mStaticIpConfig;
